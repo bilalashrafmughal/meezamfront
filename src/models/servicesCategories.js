@@ -2,6 +2,8 @@ import serviceCat1 from '../imgs/serviceCat1.jpg'
 import serviceCat2 from '../imgs/serviceCat2.jpg'
 import serviceCat3 from '../imgs/serviceCat3.jpg'
 export const servicesCategories = [
+
+    // THIS IS LIST OF CATEGORY
     {
         id: 1,
         heading: "Sports",

@@ -5,6 +5,7 @@
     --text-lightgray:  rgb(82,101,118);
     --text-darkgray: rgb(17,17,17);
   }
+  
 
   .btn{
     color: white;
@@ -34,7 +35,7 @@
     color: white;
   }
   .small-btn{
-    width: 100px;
+    width: auto;
     height: auto;
     font-size: 12px;
     overflow: hidden;

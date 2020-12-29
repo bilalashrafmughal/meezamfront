@@ -1,4 +1,6 @@
 export const productsList = [
+    
+    // THIS DETAILS FOR PRODUCT
     {
         id: 1,
         productName: 'shirt',
@@ -7,7 +9,8 @@ export const productsList = [
         price: '$70.00',
         category: 'garments',
         description: 'this is the description of product list and about the product',
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSlz6MjefQ8zhwJMvfoPjWr9-PgtQ5jEiFqzg&usqp=CAU'
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSlz6MjefQ8zhwJMvfoPjWr9-PgtQ5jEiFqzg&usqp=CAU',
+        articalCode: 'SHRT-LG-03'
     },
     {
         id: 2,
@@ -37,7 +40,7 @@ export const productsList = [
         price: '$660.00',
         category: 'garments',
         description: 'this is the description of product list and about the product',
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSlz6MjefQ8zhwJMvfoPjWr9-PgtQ5jEiFqzg&usqp=CAU'
+        img: 'https://www.vhv.rs/dpng/d/107-1070745_men-casual-dress-png-transparent-png.png'
     },
     {
         id: 5,
@@ -87,7 +90,7 @@ export const productsList = [
         price: '$69.00',
         category: 'ladies_wear',
         description: 'this is the description of product list and about the product',
-        img: 'https://contents.mediadecathlon.com/p551528/2000x2000/sq/fts100_fitness_cardio_t-shirt_-_grey_domyos_by_decathlon_8278626_551528.jpg?k=8e0ea84d0e765c80ea0cb6dff77d2ff2'
+        img: 'https://www.kindpng.com/picc/m/112-1120997_garments-model-hd-png-transparent-png.png'
     },
     {
         id: 10,
@@ -97,7 +100,7 @@ export const productsList = [
         price: '$69.00',
         category: 'ladies_wear',
         description: 'this is the description of product list and about the product',
-        img: 'https://contents.mediadecathlon.com/p551528/2000x2000/sq/fts100_fitness_cardio_t-shirt_-_grey_domyos_by_decathlon_8278626_551528.jpg?k=8e0ea84d0e765c80ea0cb6dff77d2ff2'
+        img: 'https://www.vhv.rs/dpng/d/107-1070606_maroon-dress-for-girls-hd-png-download.png'
     },
     {
         id: 11,
@@ -106,8 +109,16 @@ export const productsList = [
         brand: 'not specified',
         price: '$69.00',
         category: 'accessories',
-        description: 'this is the description of product list and about the product',
-        img: 'https://contents.mediadecathlon.com/p551528/2000x2000/sq/fts100_fitness_cardio_t-shirt_-_grey_domyos_by_decathlon_8278626_551528.jpg?k=8e0ea84d0e765c80ea0cb6dff77d2ff2'
+        description: `this is the description of product list and about the product
+        this is the description of product list and about the product
+        this is the description of product list and about the product
+        this is the description of product list and about the product
+        this is the description of product list and about the product
+        
+        
+        
+        `,
+        img: 'https://lh3.googleusercontent.com/proxy/KpnDfmJg9LC_J4iHS4PSndVX82p7dEdWkurKPoogElK09ZbPwqtbMv_Nx1RnVsSdg6XPGC2oemW4wkeJYHJbbcibs2pYQRB7mcFvx20XtFCPCWi2wUCSr-WoWAmH6vk4yPRlyoSm8dWSVpLZV8dvEzHszWR_ba8SRimMGTUIsgA'
     },
     {
         id: 12,
@@ -117,7 +128,7 @@ export const productsList = [
         price: '$69.00',
         category: 'accessories',
         description: 'this is the description of product list and about the product',
-        img: 'https://contents.mediadecathlon.com/p551528/2000x2000/sq/fts100_fitness_cardio_t-shirt_-_grey_domyos_by_decathlon_8278626_551528.jpg?k=8e0ea84d0e765c80ea0cb6dff77d2ff2'
+        img: 'https://ae01.alicdn.com/kf/HTB1jcCcaogQMeJjy0Ffq6zddXXaF/HD-High-Quality-Woman-Bag-2017-New-designer-Shape-Women-handbags-Famous-Brands-Ladies-Shoulder-Messenger.jpg'
     },
     {
         id: 13,

@@ -22,11 +22,13 @@
     letter-spacing: 2px;
     font-family: 'rubik', sans-serif;
     font-size: 60px;
-    font-weight: 300;  
+    font-weight: 300;
+    color: white;  
 }
 .slide-text-box h6{
     text-transform: uppercase;
     letter-spacing: 5px;
     font-family: 'rubik', sans-serif;
     font-weight: 300;
+    color: white;
 }
