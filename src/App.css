@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+:root{
+    --main-redish: rgb(214, 0, 52);
+    --logo-red: rgb(172, 2, 49);
+    --bg-gray:  rgb(244,244,244);
+    --text-lightgray:  rgb(82,101,118);
+    --text-darkgray: rgb(17,17,17);
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .btn{
+    color: white;
+    margin: 0;
+    /*  */
+    text-transform: uppercase;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 10px 7px;
   }
-  to {
-    transform: rotate(360deg);
+  .btn-filled{
+    background-color: var(--main-redish);
+    color: white;
   }
-}
+  .btn-filled:hover{
+    border: 1px solid var(--main-redish);
+    background-color: transparent;
+    color: var(--main-redish);
+
+  }
+  .btn-outlined{
+    border: 1px solid var(--main-redish);
+    background-color: transparent;
+    color: var(--main-redish);
+  }
+  .btn-outlined:hover{
+    background-color: var(--main-redish);
+    color: white;
+  }
+  .small-btn{
+    width: 100px;
+    height: auto;
+    font-size: 12px;
+    overflow: hidden;
+  }
+  .medium-btn{
+    width: 150px;
+    height: auto;
+    overflow: hidden;
+  }
+  .large-btn{
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+  }
+  .extra-large-btn{
+    width: 250px;
+    height: auto;
+    overflow: hidden;
+  }
